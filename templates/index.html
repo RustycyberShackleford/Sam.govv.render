@@ -1,0 +1,24 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SAM.gov Search Demo</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 24px; }
+    .card { border:1px solid #ddd; padding:16px; border-radius:8px; max-width:680px; }
+    input, button { font-size:16px; padding:8px; }
+  </style>
+</head>
+<body>
+  <h2>SAM.gov Search → Screenshot (Demo Mode)</h2>
+  <div class="card">
+    <form method="POST" action="/search">
+      <label>Search name:</label><br/>
+      <input type="text" name="name" style="width: 360px" required>
+      <br/><br/>
+      <button type="submit">Search</button>
+    </form>
+  </div>
+</body>
+</html>
